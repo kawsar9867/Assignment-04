@@ -57,6 +57,44 @@
       </main>
     </header>
     <!-- Header Section End -->
+  <hr class="my-[20px] text-[#E6E7E9]" />
+
+    <!-- Main Section Start -->
+    <main id="main-container" class="w-[80%] mx-auto">
+      <div class="flex justify-between">
+        <div>
+          <h4 class="font-bold my-[24px] text-[25px]">Available Jobs</h4>
+        </div>
+<p id="job-update" class="job-update font-bold my-[24px] text-[#64748B]">8 jobs</p>
+      </div>
+
+      <div class="p-1 gap-[8px]">
+        <button
+          id="filter-btn"
+          onclick="toggleStyle('filter-btn')"
+          class="btn btn-sm rounded-md bg-blue-500 text-white"
+        >
+          All
+        </button>
+
+        <button
+          id="interview-filter-btn"
+          onclick="toggleStyle('interview-filter-btn')"
+          class="btn btn-sm rounded-md bg-blue-500 text-white"
+        >
+          Interview
+        </button>
+
+        <button
+          id="rejected-filter-btn"
+          onclick="toggleStyle('rejected-filter-btn')"
+          class="btn btn-sm rounded-md bg-blue-500 text-white"
+        >
+          Rejected
+        </button>
+      </div>
+    <!-- Main Section End -->
+
 
 
     <script src="script.js"></script>
