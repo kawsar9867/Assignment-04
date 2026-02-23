@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-4</title>
+    <link rel="stylesheet" href="tailwind.init.css" />
+
+    <!-- tailwind-cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        font-family: "Geist", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F8FAFC] min-h-screen">
+    <!-- Header Section Start -->
+    <header class="w-[80%] mx-auto">
+      <h1 class="py-[20px] font-bold text-[30px]">Job Application Tracker</h1>
+      <main class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-[16px]">
+        <div class="bg-[#ffff] p-[10px] rounded-lg">
+          <p>Total</p>
+          <p id="total" class="text-gray-500 font-bold text-2xl">0</p>
+        </div>
+
+        <div class="bg-[#ffff] p-[10px] rounded-lg">
+          <p>Interview</p>
+          <p id="interview" class="text-green-500 font-bold text-2xl">0</p>
+        </div>
+
+        <div class="bg-[#ffff] p-[10px] rounded-lg">
+          <p>Rejected</p>
+          <p id="rejected" class="text-red-500 font-bold text-2xl">0</p>
+        </div>
+      </main>
+    </header>
+    <!-- Header Section End -->
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
